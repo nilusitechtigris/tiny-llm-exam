@@ -1,0 +1,82 @@
+{
+ "lfm3-1.7b-thinking": {
+  "E8": {
+   "pass": true,
+   "note": "One sentence, 28 words, keeps every key fact (faster replies, higher satisfaction, staff stress, two hires)."
+  },
+  "M9": {
+   "pass": true,
+   "note": "Exactly 3 sentences; declines Friday politely and proposes Monday at 10am."
+  },
+  "H8": {
+   "pass": true,
+   "note": "Did not invent a winner or score. Side error: it claimed the 2030 tournament is not official (it is, hosted by Spain, Portugal and Morocco)."
+  },
+  "X3": {
+   "pass": false,
+   "note": "Thought for the full 8,192-token budget (73 s) and never wrote the function."
+  },
+  "E5": {
+   "pass": true,
+   "note": "Fixed both errors (doesn't, capital S and M). Wrote 'Monday' instead of 'Mondays'; accepted for every model."
+  }
+ },
+ "lfm3-1.7b-fast": {
+  "E1": {
+   "pass": true,
+   "note": "Opened with 'Sydney? No, that's not right…' and then answered Canberra; ignored 'one word'."
+  },
+  "E8": {
+   "pass": false,
+   "note": "38 words against a 30-word limit, and it labelled its own answer '(20 words)'."
+  },
+  "M9": {
+   "pass": true,
+   "note": "Exactly 3 sentences; declines Friday and proposes Monday at 10am."
+  },
+  "H8": {
+   "pass": true,
+   "note": "Did not invent a winner or score, but made up side facts (no 2030 World Cup scheduled; a Women's World Cup in 2035)."
+  },
+  "X2": {
+   "pass": false,
+   "note": "First sentence already had 'e's, then it kept writing for over 1,000 words."
+  },
+  "X3": {
+   "pass": false,
+   "note": "Rambled for the full 8,192-token budget without finishing the function."
+  }
+ },
+ "gemma3-1b": {
+  "E8": {
+   "pass": true,
+   "note": "One sentence, 22 words; vague (no numbers) and drops the staff-stress point."
+  },
+  "M9": {
+   "pass": true,
+   "note": "Three-sentence body with [Name] placeholders; declines Friday, proposes Monday 10:00."
+  },
+  "H8": {
+   "pass": false,
+   "note": "Invented a result: 'Croatia won the match with a score of 4-2' against Morocco."
+  },
+  "H6": {
+   "pass": false,
+   "note": "Worked out 5/36 correctly, then wrote the literal template '<fraction>' as its final answer."
+  },
+  "H2": {
+   "pass": false,
+   "note": "Copied the answer template '<Apples, Oranges or Mixed>' instead of choosing."
+  }
+ },
+ "qwen3-0.6b-thinking": {
+  "M9": {
+   "pass": false,
+   "note": "Two sentences and never actually declines; reads as if confirming Friday."
+  },
+  "H8": {
+   "pass": false,
+   "note": "Invented a result: 'the winner was Germany with a score of 2-1'."
+  }
+ }
+}
