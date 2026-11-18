@@ -12,7 +12,7 @@
 ![Runtime](https://img.shields.io/badge/runtime-Ollama-141821?style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-5a6273?style=flat-square)
 
-<img src="assets/scorecard.png" width="420" alt="Scorecard: LFM3 1.7B scored 29 of 30. Easy 8/8, Medium 9/9, Hard 8/8, Expert 4/5. Same tasks: LFM3 without thinking 26, Gemma3 1B 17, Qwen3 0.6B 14.">&nbsp;&nbsp;<img src="assets/everyday.png" width="420" alt="Everyday tasks: translate, fix grammar, summarize, polite email, time zones, expense check, shopping math, calendar and unit conversion, all 9 correct.">
+<img src="assets/scorecard.png" width="370" alt="Scorecard: LFM3 1.7B scored 29 of 30. Easy 8/8, Medium 9/9, Hard 8/8, Expert 4/5. Same tasks: LFM3 without thinking 26, Gemma3 1B 17, Qwen3 0.6B 14.">&nbsp;&nbsp;<img src="assets/everyday.png" width="370" alt="Everyday tasks: translate, fix grammar, summarize, polite email, time zones, expense check, shopping math, calendar and unit conversion, all 9 correct.">
 
 </div>
 
