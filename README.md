@@ -14,6 +14,9 @@
 
 <img src="assets/scorecard.png" width="370" alt="Scorecard: LFM3 1.7B scored 29 of 30. Easy 8/8, Medium 9/9, Hard 8/8, Expert 4/5. Same tasks: LFM3 without thinking 26, Gemma3 1B 17, Qwen3 0.6B 14.">&nbsp;&nbsp;<img src="assets/everyday.png" width="370" alt="Everyday tasks: translate, fix grammar, summarize, polite email, time zones, expense check, shopping math, calendar and unit conversion, all 9 correct.">
 
+### [Open the interactive results →](https://nilusitechtigris.github.io/tiny-llm-exam/)
+Click any of the 30 tasks to see the exact prompt, the model's full answer and how it was graded.
+
 </div>
 
 ## At a glance
@@ -185,7 +188,7 @@ Settings used for every task: seed 42, 16K context, 8,192-token output cap, the 
 ```
 tiny-llm-exam/
 ├── assets/                 scorecard.png, everyday.png (1080×1350 images)
-├── docs/index.html         interactive results page: every prompt, answer and grade
+├── docs/index.html         interactive results page, served by GitHub Pages
 └── bench/
     ├── tasks.py            the 30 tasks and their graders
     ├── run.py              sends the tasks to an Ollama model, saves raw output
